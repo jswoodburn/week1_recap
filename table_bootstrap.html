@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 35px;
+        }
+        .cent_col {
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practicing making a table in HTML:</h1>
+    <div class="table-responsive">
+    <table class="table table-dark table-striped table-bordered" style="width:50%">
+        <thead>
+            <tr>
+                <th scope="col-xl-">Thing we learnt</th> <!--THIS ISN'T WORKING-->
+                <th scope="col">How confident do I feel (x/5)</th>
+                <th scope="col">Have I practiced? (Y/N)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CSS</td>
+                <td class="cent_col">3</td>
+                <td class="cent_col">Y</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td class="cent_col">4.5</td>
+                <td class="cent_col">Y</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td class="cent_col">1</td>
+                <td class="cent_col">Y</td>
+            </tr>
+            <tr>
+                <td>Implementing div</td>
+                <td class="cent_col">2.5</td>
+                <td class="cent_col">N</td>
+            </tr>
+            <tr>
+                <td>Making tables in HTML</td>
+                <td class="cent_col">4</td>
+                <td class="cent_col">Now I have</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
